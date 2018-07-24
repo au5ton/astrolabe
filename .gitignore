@@ -4,6 +4,7 @@
 *
 
 !.gitignore
+!README.md
 
 # but not subdirectories
 !Cloud/
