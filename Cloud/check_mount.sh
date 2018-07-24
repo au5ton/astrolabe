@@ -10,7 +10,7 @@ function dir_empty() {
   fi
 }
 
-
+# if dir_empty() returns 1
 if dir_empty $HOME/Cloud/Plex; then
   ./ring_bell.sh 'PlexMNT broken.';
   ./disconnect.sh;
