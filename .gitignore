@@ -1,0 +1,33 @@
+# https://stackoverflow.com/a/5250314
+
+# ignore everything
+*
+
+!.gitignore
+
+# but not subdirectories
+!Cloud/
+!Cloud/start/
+!Cloud/transfers/
+!Cloud/util/
+!.config/
+!.config/nginx/
+!.config/ssl/
+# and not .sh files
+!**.sh
+
+# transmission settings
+!.config/transmission-daemon/
+!.config/transmission-daemon/settings.json
+!.config/transmission-daemon-book/
+!.config/transmission-daemon-book/settings.json
+!.config/transmission-daemon-free/
+!.config/transmission-daemon-free/settings.json
+!.config/transmission-daemon-fwx/
+!.config/transmission-daemon-fwx/settings.json
+!.config/transmission-daemon-mm/
+!.config/transmission-daemon-mm/settings.json
+!.config/transmission-daemon-mov/
+!.config/transmission-daemon-mov/settings.json
+!.config/transmission-daemon-tv/
+!.config/transmission-daemon-tv/settings.json
