@@ -7,6 +7,4 @@
 
 SESS_NAME="backupmusic-$(date +'%I-%M%p_%F')"
 
-tmux new -d -s $SESS_NAME 'SESS_NAME='${SESS_NAME}'; cd ~/Cloud/util/; ./upload_music.sh; ./ring_bell.sh ${SESS_NAME}" finished"'
-#'rclone copy --transfers 32 --size-only -v /home/au5ton/Cloud/.local-sorted tamu:migration/Plex'
-#/home/au5ton/Cloud/ring_bell.sh "$(echo $SESS_NAME) finished"
+tmux new -d -s $SESS_NAME 'SESS_NAME='${SESS_NAME}'; ~/Cloud/util/upload_music.sh; ~/Cloud/ring_bell.sh ${SESS_NAME}" finished"'
