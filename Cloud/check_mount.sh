@@ -16,5 +16,5 @@ if dir_empty $HOME/Cloud/Plex; then
   ./disconnect.sh;
   tmux kill-session -t 'plexmnt';
   ./disconnect.sh;
-  ./mount_plexdrive.sh && ./ring_bell.sh 'Plexdrive remounted' && exit 0;
+  ./mount_plexdrive.sh && ./ring_bell.sh 'Plexdrive remounted' && ./util/plex_rescan.sh;
 fi
