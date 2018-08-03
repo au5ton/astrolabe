@@ -12,9 +12,9 @@ function dir_empty() {
 
 # if dir_empty() returns 1
 if dir_empty $HOME/Cloud/Plex; then
-  ./ring_bell.sh 'PlexMNT broken.';
-  ./disconnect.sh;
+  $HOME/Cloud/ring_bell.sh 'PlexMNT broken.';
+  $HOME/Cloud/disconnect.sh;
   tmux kill-session -t 'plexmnt';
-  ./disconnect.sh;
-  ./mount_plexdrive.sh && ./ring_bell.sh 'Plexdrive remounted' && ./util/plex_rescan.sh;
+  $HOME/Cloud//disconnect.sh;
+  $HOME/Cloud/mount_plexdrive.sh && $HOME/Cloud//ring_bell.sh 'Plexdrive remounted' && $HOME/Cloud/util/plex_rescan.sh;
 fi
