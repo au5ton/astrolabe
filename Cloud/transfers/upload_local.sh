@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # acd_cli upload --max-connections 8 --overwrite 
 # /home/au5ton/Cloud/.local-sorted/* /Plex

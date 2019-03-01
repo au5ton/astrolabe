@@ -10,5 +10,7 @@ source /home/au5ton/.bashrc
 tmux new-session -d -s fix_mount
 # ...and control the tmux session (initially ensure the environment
 #   is available, then run commands)
+tmux send-keys -t fix_mount "bash" C-m
 tmux send-keys -t fix_mount "source /home/au5ton/.bashrc" C-m
 tmux send-keys -t fix_mount "/home/au5ton/Cloud/check_mount.sh && exit" C-m
+tmux send-keys -t fix_mount "exit" C-m
