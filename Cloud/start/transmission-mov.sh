@@ -1,4 +1,4 @@
 #!/bin/sh
 
 # transmission
-tmux new -d -s transmissiond-mov 'transmission-daemon -f -g ~/.config/transmission-daemon-mov'
+tmux new -d -s transmissiond-mov "TRANSMISSION_WEB_HOME='$HOME/.combustion/combustion-release' transmission-daemon -f -g ~/.config/transmission-daemon-mov"
