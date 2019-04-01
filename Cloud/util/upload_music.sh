@@ -8,7 +8,7 @@ TMP=/home/au5ton/.tmp
 
 ARGS="--authid=$DRIVEAUTH --passphrase=$PASS --tempdir=$TMP"
 ARGS="$ARGS --upload-verification-file=true"
-ARGS="$ARGS --throttle-upload=10000kb"
+#ARGS="$ARGS --throttle-upload=10000kb"
 ARGS="$ARGS --threshold=0 --symlink-policy=follow"
 
 mono ~/duplicati/Duplicati.CommandLine.exe backup googledrive://MusicBackup ~/MusicBackup/ $ARGS

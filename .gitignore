@@ -11,6 +11,7 @@
 !Cloud/start/
 !Cloud/transfers/
 !Cloud/util/
+!Cloud/updates/
 !.config/
 !.config/nginx/
 !.config/ssl/
