@@ -1,6 +1,8 @@
 #!/bin/bash
 
+
 message=$1
+BELL_RINGER_TOKEN=$(cat /home/au5ton/Cloud/.bottoken)
 
 #if [-z "$1"]; then
 #	message='not specified';
