@@ -16,6 +16,15 @@
 !.config/nginx/
 !.config/nginx/**.conf
 !.config/nginx/**.conf.bak
+!.config/nginx/**.conf.disabled
+!.config/nginx/upstream.d/
+!.config/nginx/upstream.d/**.conf
+!.config/nginx/upstream.d/**.conf.bak
+!.config/nginx/upstream.d/**.conf.disabled
+!.config/nginx/sites.d/
+!.config/nginx/sites.d/**.conf
+!.config/nginx/sites.d/**.conf.bak
+!.config/nginx/sites.d/**.conf.disabled
 !.config/ssl/
 # and not .sh files
 !**.sh
