@@ -6,7 +6,7 @@
 !.gitignore
 !README.md
 
-# but not subdirectories
+# include these in source
 !Cloud/
 !Cloud/start/
 !Cloud/transfers/
@@ -14,6 +14,8 @@
 !Cloud/updates/
 !.config/
 !.config/nginx/
+!.config/nginx/**.conf
+!.config/nginx/**.conf.bak
 !.config/ssl/
 # and not .sh files
 !**.sh

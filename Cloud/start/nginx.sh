@@ -1,3 +1,3 @@
 #!/bin/sh
 
-killall nginx; ~/.config/nginx/start
+killall nginx; ~/.config/nginx/start.sh
