@@ -17,6 +17,10 @@
 !.config/nginx/**.conf
 !.config/nginx/**.conf.bak
 !.config/nginx/**.conf.disabled
+!.config/nginx/includes/
+!.config/nginx/includes/**.conf
+!.config/nginx/includes/**.conf.bak
+!.config/nginx/includes/**.conf.disabled
 !.config/nginx/upstream.d/
 !.config/nginx/upstream.d/**.conf
 !.config/nginx/upstream.d/**.conf.bak
