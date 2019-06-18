@@ -3,7 +3,7 @@
 # mono ~/duplicati/Duplicati.CommandLine.exe
 
 PASS=`cat /home/au5ton/Cloud/.pass`
-DRIVEAUTH=`cat /home/au5ton/Cloud/.driveauth`
+DRIVEAUTH=`cat /home/au5ton/Cloud/.sootdev.driveauth`
 TMP=/home/au5ton/.tmp
 
 ARGS="--authid=$DRIVEAUTH --passphrase=$PASS --tempdir=$TMP"

@@ -10,4 +10,4 @@ else
 fi
 
 export ENCFS6_CONFIG='/home/au5ton/Cloud/encfs6.xml'
-encfsctl decode --extpass="cat /home/au5ton/Cloud/.pass" /home/au5ton/Cloud/.acd-sorted/migration/Plex "$DECRYPT_NAME"
+encfsctl decode --extpass="cat /home/au5ton/Cloud/.pass" /home/au5ton/Cloud/.acd-sorted/whatbox/Plex "$DECRYPT_NAME"
