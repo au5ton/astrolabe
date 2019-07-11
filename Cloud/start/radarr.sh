@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # sonarr
-tmux new -d -s radarr '/home/au5ton/bin/mono --debug ~/Radarr/Radarr.exe -c libcurl'
+tmux new -d -s radarr 'mono --debug ~/Radarr/Radarr.exe -c libcurl'
 #screen -dmS radarr mono --debug ~/Radarr/Radarr.exe -c libcurl
 
 # jackett
