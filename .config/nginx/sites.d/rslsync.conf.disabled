@@ -1,0 +1,25 @@
+location /btsync/ {
+    proxy_pass http://127.0.0.1:25236/gui/;
+    proxy_buffering off;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+}
+
+#location /btsync/ {
+#	rewrite ^/btsync/gui(.*) /btsync$1 last;
+#	proxy_pass		 http://127.0.0.1:25236/;
+#	proxy_redirect	 /gui/ /btsync/;
+#	proxy_buffering	 off;
+#	proxy_set_header Host		 $host;
+#	proxy_set_header X-Real-IP	 $remote_addr;
+#}
+
+#location /MY_SYNC_PATH/ {
+	#proxy_pass http://127.0.0.1:25236/gui/;
+	#proxy_redirect / /MY_SYNC_PATH/;
+	#subs_filter_types text/javascript;
+	#subs_filter "/gui/" "";
+	#subs_filter 'urlBase=""' 'urlBase="/MY_SYNC_PATH"' o;
+#}
+
+#location /proxy/btsync/ {        proxy_pass http://nas:8888/gui/;        subs_filter_types text/javascript;        subs_filter "/gui/" "";    }

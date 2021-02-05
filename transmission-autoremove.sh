@@ -1,5 +1,5 @@
 #!/bin/bash
-SERVER="56138 --auth "$1
+SERVER="56137 --auth "$1
 
 MOVEDIR=/media/downloads/completed
 
